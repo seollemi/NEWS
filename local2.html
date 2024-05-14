@@ -10,46 +10,40 @@
     <link rel="stylesheet" href="banana.css">
 </head>
 <body>
-    <div class="container  border-opacity-25 col-sm-12 col-md-6 col-xs-12 col-lg-6 col-xxl-12 "> <!-- Use container-fluid to make it full-width -->
-        <div class="logo-wrapper d-flex align-items-center justify-content-center"> 
-            <h1> <!-- big logo Krizzler  -->
-                <a href="index.html">Krizzler News</a> 
-            </h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="index.html">Krizzler News</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="sectionsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        More
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="sectionsDropdown">
+                        <a class="dropdown-item" href="#about-us">About Us</a>
+                        <a class="dropdown-item" href="ref.html">References</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#LN">Local News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#WN">Weather News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#SHN">Showbiz News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#SN">Sports News</a>
+                </li>
+            </ul>
         </div>
-    </div>
-
-    <div class="container menu sticky">
-        <div class="d-flex menu-items">
-            <div class="active">
-                <a href="index.html">Home</a>
-            </div>
-            <div class="dropdown">
-                <a class="dropdown-toggle" href="#" id="sectionsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    More
-                </a>
-                <div class="dropdown-menu" aria-labelledby="sectionsDropdown">
-                    
-                    <a class="dropdown-item" href="#about-us">About Us</a>
-                    <a class="dropdown-item" href="ref.html">References</a>
-                    
-                </div>
-            </div>
-            <!-- Individual Section Links -->
-            <div>
-                <a href="index.html#LN">Local News</a>
-            </div>
-            <div>
-                <a href="index.html#WN">Weather News</a>
-            </div>
-            <div>
-                <a href="index.html#SHN">Showbiz News</a>
-            </div>
-            <div>
-                <a href="index.html#SN">Sports News</a>
-            </div>
-            
-        </div>
-    </div>
+    </nav>
     <br>
     <div class="container breadcrumb-container">
         <nav aria-label="breadcrumb">
