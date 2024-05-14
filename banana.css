@@ -1,0 +1,146 @@
+a{  /* color for nav bar things */
+    color: #9244b9;
+    text-decoration: none;
+}
+
+ a:hover{ /* hover animation for LINKS */
+    color: #6E6A6F;
+}
+
+.logo-wrapper{ /*krizzler logo */
+    text-transform: uppercase;
+    padding: 30px 0px;
+
+
+}
+
+body {
+    background-color: #f1f1f1; /* Replace with your desired color */
+}
+
+.menu{ /* bg color of nav bar */
+    padding-left: 0px;
+    background-color: #D4D2D5; 
+}
+.menu .container{ /*  nav bar spacing is set to none */
+    padding-left: 0px;
+}
+
+.menu-items .active{ /* bg color of nav bar ITEMS */
+    background: #c6a7d6;
+}
+
+.menu .menu-items a{ /* Nav bar Style/shape thingy*/
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    display: block;
+
+}
+
+.menu .menu-items a:hover{ /* Nav bar animation*/
+background: #6E6A6F;
+}
+
+.thumb {     /* thumbnail size*/
+    width: 100%; /* Ensure the image width is 100% */
+    height: auto;
+
+}
+
+.update-item {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the shadow as needed */
+    margin-bottom: 20px; /* Space between shadowed items */
+    padding: 15px;
+    border-radius: 5px; /* Optional: add rounded corners */
+    background-color: #ffffff; /* Ensure a background color for better visibility */
+}
+
+
+.main-news{ 
+    margin-top: 20px;
+}
+
+.main-news h3{   /* text height in main news*/
+
+    line-height: 0.75;
+}
+.main-news h3 a{   /* picture of news */
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.image{    
+    overflow: hidden ;
+    
+}
+
+.image-sm img {
+
+    height: 180px;
+}
+.image-sm{
+    max-height: 180px;
+   
+}
+
+.image-xs{
+    max-height: 160px;
+}
+
+.image-xxs{
+    max-height: 100px;
+}
+
+.image img{
+    object-fit: cover;
+}
+
+.font-large{
+    font-size: 0.9em !important; 
+    font-weight: 600!important;
+}
+
+.section-title{        /* title spacer bottom*/
+    position: relative;
+    margin-bottom: 20px;
+
+}
+.section-title span{
+    font-weight: 400;
+    font-size: 17px;
+    color:#6c698d ;
+}
+
+body span{
+    font-size: 25px;
+}
+.section-title span:after {   /* red line under the title*/
+    content: '';
+    position: absolute;
+    background: #6c698d ;
+    width: 50px;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+}
+
+.bb-1{
+    padding: 20px 0px;
+    border-bottom: 1px solid #000000 ;
+}
+
+/* .section{
+    border-bottom: 1px solid #000000;
+    padding-bottom: 20px;
+} */
+
+small{
+    color: #999;
+}
+
+.summary {
+    color: #777;
+}
