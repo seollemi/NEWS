@@ -14,46 +14,55 @@
     </style>
 </head>
 <body>
-    <div class="container   col-sm-12 col-md-6 col-xs-12 col-lg-6 col-xxl-12"> <!-- Use container-fluid to make it full-width -->
-        <div class="logo-wrapper d-flex align-items-center justify-content-center"> 
-            <h1> <!-- big logo Krizzler  -->
-                <a href="index.html"  data-toggle="tooltip" data-placement="bottom" title="Home Page">Krizzler News</a> 
-            </h1>
-        </div>
-    </div>
-                        
-    <div class="container menu sticky">
-        <div class="d-flex menu-items">
-            <div class="active">
-                <a href="index.html">Home</a>
-            </div>
-            <div class="dropdown">
-                <a class="dropdown-toggle" href="#" id="sectionsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    More
-                </a>
-                <div class="dropdown-menu" aria-labelledby="sectionsDropdown">
-                    
-                    <a class="dropdown-item" href="#about-us">About Us</a>
-                    <a class="dropdown-item" href="ref.html">References</a>
-                    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6 col-xxl-12 text-center">
+                <div class="logo-wrapper d-flex align-items-center justify-content-center">
+                    <h1>
+                        <a href="index.html" data-toggle="tooltip" data-placement="bottom" title="Home Page">Krizzler News</a>
+                    </h1>   
                 </div>
             </div>
-            <!-- Individual Section Links -->
-            <div>
-                <a href="index.html#LN">Local News</a>
-            </div>
-            <div>
-                <a href="index.html#WN">Weather News</a>
-            </div>
-            <div>
-                <a href="index.html#SHN">Showbiz News</a>
-            </div>
-            <div>
-                <a href="index.html#SN">Sports News</a>
-            </div>
-            
         </div>
     </div>
+    
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top menu">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav menu-items">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            More
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#about-us">About Us</a>
+                            <a class="dropdown-item" href="ref.html">References</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#LN">Local News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#WN">Weather News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#SHN">Showbiz News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#SN">Sports News</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
     <br>
     <div class="container breadcrumb-container">
         <nav aria-label="breadcrumb">
@@ -66,7 +75,7 @@
 
     <div class="container main-news section">
         <div class="row">
-            <div class="col-8">
+            <div class="col-12 col-lg-8">
                 <h4>May 9, 2024</h4>
                 <h2>NCAA Season 99 Volleyball stepladder semifinals | NCAA Philippines</h2>
                 <div id="carouselExampleCaptions" class="carousel slide">
@@ -132,47 +141,39 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-lg-4">
                 <div class="trending mt-4">
                     <div class="section-title">
-                        <span>Sports news</span> <!-- Another ROW of news -->
+                        <span>Sports news</span>
                     </div>
                     <div class="row mt-3">
                         <div class="col-4">
                             <img class="thumb img-fluid" src="./medias/PBA-Images14-6-2048x1187.jpg">
                         </div>
                         <div class="col-8">
-                            <a href="pba.html">
-                                PBA: Meralco ousts NLEX, books semis vs Ginebra
-                            </a>
+                            <a href="pba.html">PBA: Meralco ousts NLEX, books semis vs Ginebra</a>
                         </div>
                     </div>
-
                     <div class="row mt-3">
                         <div class="col-4">
                             <img class="thumb img-fluid" src="./medias/olympicn.jpg">
                         </div>
                         <div class="col-8">
-                            <a href="olympic.html">
-                                Filipino Gymnast Carlos Yulo Secures Coveted Ticket to 2024 Paris Olympics
-                            </a>
+                            <a href="olympic.html">Filipino Gymnast Carlos Yulo Secures Coveted Ticket to 2024 Paris Olympics</a>
                         </div>
                     </div>
-
                     <div class="row mt-3">
                         <div class="col-4">
                             <img class="thumb img-fluid" src="./medias/letran.jpg">
                         </div>
                         <div class="col-8">
-                            <a href="volleybal.html">
-                                NCAA Season 99 Volleyball stepladder semifinals | NCAA Philippines
-                            </a>
+                            <a href="volleybal.html">NCAA Season 99 Volleyball stepladder semifinals | NCAA Philippines</a>
                         </div>
-                            </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
         <footer id="about-us" class="bg-dark text-white text-center text-lg-start mt-4">
             <div class="container p-4">
                 <div class="row">

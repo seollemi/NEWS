@@ -10,147 +10,149 @@
 </head>
 <body>
     <div class="container-fluid">
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-            <a class="navbar-brand" href="index.html">Krizzler News</a>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6 col-xxl-12 text-center">
+                <div class="logo-wrapper d-flex align-items-center justify-content-center">
+                    <h1>
+                        <a href="index.html" data-toggle="tooltip" data-placement="bottom" title="Home Page">Krizzler News</a>
+                    </h1>   
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top menu">
+        <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav menu-items">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="sectionsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             More
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="sectionsDropdown">
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#about-us">About Us</a>
                             <a class="dropdown-item" href="ref.html">References</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#LN">Local News</a>
+                        <a class="nav-link" href="index.html#LN">Local News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#WN">Weather News</a>
+                        <a class="nav-link" href="index.html#WN">Weather News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#SHN">Showbiz News</a>
+                        <a class="nav-link" href="index.html#SHN">Showbiz News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#SN">Sports News</a>
+                        <a class="nav-link" href="index.html#SN">Sports News</a>
                     </li>
                 </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
 
-    <br>
-    <div class="container breadcrumb-container">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Carlos Yulo Secures Coveted Ticket</li>
-            </ol>
-          </nav>
-    </div>
+        <br>
+        <div class="container breadcrumb-container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Carlos Yulo Secures Coveted Ticket</li>
+                </ol>
+            </nav>
+        </div>
 
-    <div class="container main-news section">
-        <div class="row">
-            <div class="col">
-                <h4>October 3, 2023</h4>
-                <h2>Filipino Gymnast Carlos Yulo Secures Coveted Ticket to 2024 Paris Olympics</h2>
-                <div class="card">
-                    <div id="carouselExampleIndicators" class="carousel slide">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div class="container main-news section">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <h4>October 3, 2023</h4>
+                    <h2>Filipino Gymnast Carlos Yulo Secures Coveted Ticket to 2024 Paris Olympics</h2>
+                    <div class="card">
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="medias/olympicn.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="medias/1-Carlos-Yulo-1068x601.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="medias/carlos-yulo-parallel-bars-sea-games-1683540210.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="medias/olympicn.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="medias/1-Carlos-Yulo-1068x601.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="medias/carlos-yulo-parallel-bars-sea-games-1683540210.jpg" class="d-block w-100" alt="...">
-                          </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Filipino Gymnast Carlos Yulo Secures Coveted Ticket to 2024 Paris Olympics</h5>
+                            <p class="card-text">
+                                Manila, Philippines – In a triumphant display of resilience and skill, Filipino gymnast Carlos Edriel Yulo has clinched his spot in the 2024 Paris Olympics. Yulo’s remarkable comeback at the 2023 Artistic Gymnastics World Championships, held at the Sportspalais in Antwerp, Belgium, has captured the hearts of the nation and earned him a well-deserved place on the world’s grandest sporting stage. <br><br>
+        
+                                Yulo’s journey to Olympic qualification was nothing short of inspiring. After encountering a challenging start on Day 1 of the championships, marked by a disastrous performance in the vault, he showcased his unwavering determination and incredible talent by emerging as the highest-ranked eligible athlete in the floor exercise—his signature event.<br><br>
+                                
+                                In the men’s floor exercise, Yulo delivered a stellar performance, securing a remarkable score of 14.600 points. He stood just behind Artem Dolgopyat of Israel (15.100) and Frederick Richard of the United States (14.600), both of whom had already secured their Olympic berths prior to the World Championships. Yulo’s outstanding performance secured him the next eligible spot for the 2024 Paris Olympics.<br><br>
+                                
+                                Carlos Edriel Yulo’s path to Olympic qualification included a strong showing in the preliminary rounds of the floor exercise, where he earned 14.600 points, firmly positioning himself for the highly anticipated final. His qualification ultimately compensated for the earlier setback he faced when he encountered an errant fall in the vault, resulting in zero points. <br><br>
+        
+                                Yulo now joins fellow Filipino athlete EJ Obiena, who has also secured a place in the 2024 Paris Olympics, as they prepare to represent the Philippines on the international stage. <br> <br>
+        
+                                The Philippine Olympic Committee (POC) proudly announced Yulo’s extraordinary achievement on its Facebook account, celebrating his dedication and relentless pursuit of excellence.
+                            </p>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                        
-                        
-                    <div class="card-body">
-                        <h5 class="card-title">Filipino Gymnast Carlos Yulo Secures Coveted Ticket to 2024 Paris Olympics</h5>
-                        <p class="card-text">
-                            Manila, Philippines – In a triumphant display of resilience and skill, Filipino gymnast Carlos Edriel Yulo has clinched his spot in the 2024 Paris Olympics. Yulo’s remarkable comeback at the 2023 Artistic Gymnastics World Championships, held at the Sportspalais in Antwerp, Belgium, has captured the hearts of the nation and earned him a well-deserved place on the world’s grandest sporting stage. <br><br>
-
-                            Yulo’s journey to Olympic qualification was nothing short of inspiring. After encountering a challenging start on Day 1 of the championships, marked by a disastrous performance in the vault, he showcased his unwavering determination and incredible talent by emerging as the highest-ranked eligible athlete in the floor exercise—his signature event.<br><br>
-                            
-                            In the men’s floor exercise, Yulo delivered a stellar performance, securing a remarkable score of 14.600 points. He stood just behind Artem Dolgopyat of Israel (15.100) and Frederick Richard of the United States (14.600), both of whom had already secured their Olympic berths prior to the World Championships. Yulo’s outstanding performance secured him the next eligible spot for the 2024 Paris Olympics.<br><br>
-                            
-                            Carlos Edriel Yulo’s path to Olympic qualification included a strong showing in the preliminary rounds of the floor exercise, where he earned 14.600 points, firmly positioning himself for the highly anticipated final. His qualification ultimately compensated for the earlier setback he faced when he encountered an errant fall in the vault, resulting in zero points. <br><br>
-
-                            Yulo now joins fellow Filipino athlete EJ Obiena, who has also secured a place in the 2024 Paris Olympics, as they prepare to represent the Philippines on the international stage. <br> <br>
-
-                            The Philippine Olympic Committee (POC) proudly announced Yulo’s extraordinary achievement on its Facebook account, celebrating his dedication and relentless pursuit of excellence.
-                        
-                        </p>
-                        
                     </div>
                 </div>
-            </div>
-            <div class="col-4">
-                <div class="trending mt-4">
-                    <div class="section-title">
-                        <span>Sports news</span> <!-- Another ROW of news -->
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-4">
-                            <img class="thumb img-fluid" src="./medias/PBA-Images14-6-2048x1187.jpg">
+        
+                <div class="col-12 col-lg-4">
+                    <div class="trending mt-4">
+                        <div class="section-title">
+                            <span>Sports news</span>
                         </div>
-                        <div class="col-8">
-                            <a href="pba.html">
-                                PBA: Meralco ousts NLEX, books semis vs Ginebra
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="row mt-3">
-                        <div class="col-4">
-                            <img class="thumb img-fluid" src="./medias/olympicn.jpg">
-                        </div>
-                        <div class="col-8">
-                            <a href="olympic.html">
-                                Filipino Gymnast Carlos Yulo Secures Coveted Ticket to 2024 Paris Olympics
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="row mt-3">
-                        <div class="col-4">
-                            <img class="thumb img-fluid" src="./medias/letran.jpg">
-                        </div>
-                        <div class="col-8">
-                            <a href="volleybal.html">
-                                NCAA Season 99 Volleyball stepladder semifinals | NCAA Philippines
-                            </a>
-                        </div>
+                        <div class="row mt-3">
+                            <div class="col-4">
+                                <img class="thumb img-fluid" src="./medias/PBA-Images14-6-2048x1187.jpg">
                             </div>
+                            <div class="col-8">
+                                <a href="pba.html">PBA: Meralco ousts NLEX, books semis vs Ginebra</a>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-4">
+                                <img class="thumb img-fluid" src="./medias/olympicn.jpg">
+                            </div>
+                            <div class="col-8">
+                                <a href="olympic.html">Filipino Gymnast Carlos Yulo Secures Coveted Ticket to 2024 Paris Olympics</a>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-4">
+                                <img class="thumb img-fluid" src="./medias/letran.jpg">
+                            </div>
+                            <div class="col-8">
+                                <a href="volleybal.html">NCAA Season 99 Volleyball stepladder semifinals | NCAA Philippines</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <footer id="about-us" class="bg-dark text-white text-center text-lg-start mt-4">
             <div class="container p-4">
                 <div class="row">
@@ -175,7 +177,7 @@
                 &copy; 2024 Krizzler News. All rights reserved.
             </div>
         </footer>
-    </div>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

@@ -7,44 +7,61 @@
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
     <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="banana.css">    
+    
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="modal fade" id="myModal">
-            <div class="modal-dialog">
-            <div class="modal-content">
-        
-                <div class="modal-header">
-                <h4 class="modal-title"> Krizzler News</h4>
-                
-                </div>
-        
-                <div class="modal-body">
-                    Thank you for visiting Krizzler News, where we pride ourselves on being the fastest source for delivering the latest news.
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                </div>
-        
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title"> Krizzler News</h4>
+              
             </div>
+      
+            <!-- Modal Body -->
+            <div class="modal-body">
+                Thank you for visiting Krizzler News, where we pride ourselves on being the fastest source for delivering the latest news.
+            </div>
+      
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+      
+          </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6 col-xxl-12 text-center">
+                <div class="logo-wrapper d-flex align-items-center justify-content-center">
+                    <h1>
+                        <a href="index.html" data-toggle="tooltip" data-placement="bottom" title="Home Page">Krizzler News</a>
+                    </h1>   
+                </div>
             </div>
         </div>
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-            <a class="navbar-brand" href="index.html">Krizzler News</a>
+    </div>
+    
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top menu">
+        <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav menu-items">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="sectionsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             More
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="sectionsDropdown">
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#about-us">About Us</a>
                             <a class="dropdown-item" href="ref.html">References</a>
                         </div>
@@ -63,8 +80,8 @@
                     </li>
                 </ul>
             </div>
-        </nav>
-
+        </div>
+    </nav>
             <div class="container main-news section update-item">
                 <div class="section-title ">
                     <span style="font-size: 25px;" id="LN"> Local News</span>
